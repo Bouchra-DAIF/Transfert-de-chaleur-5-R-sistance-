@@ -10,9 +10,9 @@ try:
     S=float(S)
     Lamb1=float(Lamb1)
     Lamb2 = float(Lamb2)
-    R1=e1/(lamb1*S)
-    R2=e2/(lamb2*S)
+    R1=e1/(Lamb1*S)
     print("La résistance 1", R1)
+    R2=e2/(Lamb2*S)
     print("La résistance 2", R2)
 except:
     print("erreur")
