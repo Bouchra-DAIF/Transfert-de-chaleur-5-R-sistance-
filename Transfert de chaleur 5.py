@@ -1,0 +1,18 @@
+print("Transfert de chaleur ")
+e1=input("Entrez l'epaiseur 1': ")
+e2=input("Entrez l'epaiseur 2: ")
+S=input("Entrez la surface: ")
+Lamb1=input("Entrez la longueur  d'onde: ")
+Lamb2=input("Entrez la longueur  d'onde 2: ")
+try:
+    e1=float(e1)
+    e2=float(e2)
+    S=float(S)
+    Lamb1=float(Lamb1)
+    Lamb2 = float(Lamb2)
+    R1=e1/(lamb1*S)
+    R2=e2/(lamb2*S)
+    print("La résistance 1", R1)
+    print("La résistance 2", R2)
+except:
+    print("erreur")
